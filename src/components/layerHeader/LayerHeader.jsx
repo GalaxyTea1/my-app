@@ -14,7 +14,7 @@ const LayerHeader = () => {
             <div className="z-10 bg-[#E8E8E8] pl-8 pt-10 pb-6 max-md:z-50">
               <Header/>
 
-              <h1 className="font-mono text-5xl md:text-6xl leading-tight mb-8 mt-10">
+              <h1 className="font-mono text-5xl md:text-6xl leading-tight mb-8 mt-10 text-black">
                 Improve your
                 <br />
                 skills by <span className="inline-flex items-center">

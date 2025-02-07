@@ -2,7 +2,7 @@ const UpgradeSection = () => {
     return (
       <div className="bg-[#ddf247] shadow-sm-custom absolute left-1/2 transform -translate-x-1/2 bottom-[-100px] rounded-2xl z-20">
         <div className="max-w-full mx-10 text-center px-40 py-10 max-md:px-20">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2 max-sm:text-[1.2rem]">
+          <h2 className="text-2xl md:text-3xl font-bold mb-2 max-sm:text-[1.2rem] text-black">
             Start upgrading your skills <br/> free for this month
           </h2>
           <p className="text-gray-700 mb-6 max-sm:text-[0.9rem]">

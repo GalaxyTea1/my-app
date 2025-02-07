@@ -12,7 +12,7 @@ const FAQItem = ({ question, answer }) => {
         className="w-full py-6 flex justify-between items-center text-left"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-lg font-bold">{question}</span>
+        <span className="text-lg font-bold text-black">{question}</span>
         <div className={`w-6 h-6 rounded-full flex items-center justify-center border ${isOpen ? 'bg-[#E1FF4A] border-[#E1FF4A]' : 'border-black'}`}>
           <span className={`font-bold text-xl ${isOpen ? 'text-black' : 'text-[#E1FF4A]'}`}>
             {isOpen ? '-' : '+'}
@@ -42,7 +42,7 @@ const FAQ = () => {
 
   return (
     <section className="py-20 px-4 bg-white" id="faq-section">
-      <h2 className="text-3xl text-center font-bold mb-12 max-w-full mx-auto">FAQs</h2>
+      <h2 className="text-3xl text-center font-bold mb-12 max-w-full mx-auto text-black">FAQs</h2>
       <div className="space-y-1 pb-56">
         {faqs.map((faq, index) => (
           <React.Fragment key={index}>

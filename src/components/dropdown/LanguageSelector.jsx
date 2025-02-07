@@ -19,7 +19,7 @@ const LanguageSelector = () => {
         className="flex items-center space-x-2 bg-gray-100 px-4 py-2 rounded-lg"
       >
         <span><Image src={selectedLang.flag} alt={selectedLang.label} className="w-5 h-5" /></span>
-        <span>{selectedLang.code}</span>
+        <span className='text-black'>{selectedLang.code}</span>
         <svg
           className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
@@ -45,7 +45,7 @@ const LanguageSelector = () => {
               <span>
                 <Image src={lang.flag} alt={lang.label} width={20} height={20} />
               </span>
-              <span>{lang.label}</span>
+              <span className='text-black'>{lang.label}</span>
             </button>
           ))}
         </div>

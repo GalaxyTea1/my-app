@@ -43,10 +43,10 @@ const Features = () => {
             <div className="max-w-full mx-10 grid grid-cols-1 gap-8 md:gap-2 md:grid-cols-4">
                 {/* Left Column */}
                 <div className="flex flex-col md:col-span-1">
-                    <h2 className="text-3xl font-bold mb-4">
+                    <h2 className="text-3xl font-bold mb-4 text-black">
                         Our Features<br />Special For You
                     </h2>
-                    <p className="mb-8">
+                    <p className="mb-8 text-black">
                         We provide various special <br/> features for all of you
                     </p>
                 </div>

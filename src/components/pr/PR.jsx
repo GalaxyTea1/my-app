@@ -72,7 +72,7 @@ const PR = () => {
                     />
                   </div>
                   <div className="rounded-xl pb-6 pt-14 transition-all">
-                    <h3 className="text-xl font-semibold mb-3">University</h3>
+                    <h3 className="text-xl font-semibold mb-3 text-black">University</h3>
                     <p className="text-gray-400">Browse hundreds of in-depth
                       videos, courses, and guides
                       to get up and running fast
@@ -92,7 +92,7 @@ const PR = () => {
                     />
                   </div>
                   <div className="rounded-xl pb-6 pt-14 transition-all">
-                    <h3 className="text-xl font-semibold mb-3">Showcase</h3>
+                    <h3 className="text-xl font-semibold mb-3 text-black">Showcase</h3>
                     <p className="text-gray-400">Get inspired by the
                       incredible websites built by
                       members of the community

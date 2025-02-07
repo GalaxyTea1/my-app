@@ -56,10 +56,10 @@ const PricingCard = ({ title, price, features, isNew }) => {
   
     return (
       <div className="px-4 py-12 bg-white">
-        <h2 className="text-3xl font-bold text-center">
+        <h2 className="text-3xl font-bold text-center text-black">
           Choose your package
         </h2>
-        <div className="text-center text-xl pt-8 pb-14">
+        <div className="text-center text-xl pt-8 pb-14 text-black">
           <span>We provide various types of packages just for you</span>
         </div>
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
