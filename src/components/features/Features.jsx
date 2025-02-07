@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Features = () => {
     const [activeIndex, setActiveIndex] = useState(0);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    const [isMobile, setIsMobile] = useState(false);
 
     const features = [
         {
