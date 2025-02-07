@@ -3,7 +3,7 @@ import Code from "../../assets/code2.png"
 import Caution from "../../assets/caution2.png"
 import Wave from "../../assets/wave.png"
 import Circle from "../../assets/circle.png"
-import Tutor from "../../assets/tutor.png"
+import Person from "../../assets/person.png"
 
 const PR = () => {
     return (
@@ -106,8 +106,8 @@ const PR = () => {
             <div className="relative">
               <div className="bg-[#C1FF00] rounded-2xl overflow-hidden">
                   <Image
-                    src={Tutor}
-                    alt="Tutor"
+                    src={Person}
+                    alt="Person"
                   />
               </div>
             </div>
