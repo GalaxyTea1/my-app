@@ -3,7 +3,7 @@ import Code from "../../assets/code2.png"
 import Caution from "../../assets/caution2.png"
 import Wave from "../../assets/wave.png"
 import Circle from "../../assets/circle.png"
-import Tutor from "../../assets/Tutor.png"
+import Tutor from "../../assets/tutor.png"
 
 const PR = () => {
     return (
