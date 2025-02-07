@@ -23,26 +23,28 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth > 768) {
-        setIsOpen(false);
-      }
-    };
-
-    const handleClickOutside = (event) => {
-      const menu = document.getElementById('mobile-menu');
-      if (menu && !menu.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-
-    window.addEventListener('resize', handleResize);
-    window.addEventListener('mousedown', handleClickOutside);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-      window.removeEventListener('mousedown', handleClickOutside);
-    };
+    if (typeof window !== 'undefined') {
+      const handleResize = () => {
+        if (window.innerWidth > 768) {
+          setIsOpen(false);
+        }
+      };
+    
+      const handleClickOutside = (event) => {
+        const menu = document.getElementById('mobile-menu');
+        if (menu && !menu.contains(event.target)) {
+          setIsOpen(false);
+        }
+      };
+    
+      window.addEventListener('resize', handleResize);
+      window.addEventListener('mousedown', handleClickOutside);
+    
+      return () => {
+        window.removeEventListener('resize', handleResize);
+        window.removeEventListener('mousedown', handleClickOutside);
+      };
+  } 
   }, []);
 
   return (

@@ -17,7 +17,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > window.innerHeight) {
+      if (typeof window !== 'undefined' && window.scrollY > window.innerHeight) {
         setShowDropdown(true);
       } else {
         setShowDropdown(false);
@@ -29,7 +29,9 @@ export default function Home() {
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
 
   return (

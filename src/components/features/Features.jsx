@@ -24,13 +24,13 @@ const Features = () => {
         }
     ];
 
-    // Theo dõi kích thước cửa sổ
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
-            // Nếu đang ở chế độ mobile và activeIndex lớn hơn số lượng features, reset về 0
-            if (window.innerWidth <= 768 && activeIndex >= features.length) {
-                setActiveIndex(0);
+            if (typeof window !== 'undefined') {
+                setIsMobile(window.innerWidth <= 768);
+                if (window.innerWidth <= 768 && activeIndex >= features.length) {
+                    setActiveIndex(0);
+                }
             }
         };
 
