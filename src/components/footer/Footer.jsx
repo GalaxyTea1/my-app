@@ -9,7 +9,7 @@ const Footer = () => {
     return (
       <footer className="bg-black text-white py-4">
         <div className="max-w-full mx-16 pt-36 pb-3 relative">
-          {/* Row 1: Logo và Menu */}
+          {/* Row 1: Logo & Menu */}
           <div className="flex flex-col md:flex-row justify-between items-center mb-4 mx-12">
             {/* Logo */}
             <div className="flex items-center gap-2 mb-4 md:mb-0 max-sm:mb-12">
@@ -58,6 +58,7 @@ const Footer = () => {
               <span className="text-base text-gray-400">© 2021 Copyright  <span className="text-[#E1FF4A]">Macode.io</span></span>
             </div>
           </div>
+          {/* Divider */}
           <div className="absolute left-0 right-0 h-[1px] bg-[#525252] bottom-[30px] my-4 hidden max-md:block"></div>
         </div>
       </footer>

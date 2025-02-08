@@ -22,7 +22,7 @@ const LanguageSelector = () => {
         <span className='text-black'>{selectedLang.code}</span>
         <svg
           className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
-          fill="none"
+          fill="black"
           stroke="currentColor"
           viewBox="0 0 24 24"
         >

@@ -70,6 +70,7 @@ const Header = () => {
           {/* Language Selector */}
           <LanguageSelector />
         </div>
+        {/* Language Selector Mobile */}
         <div className='max-md:flex items-center space-x-8 hidden'>
           <LanguageSelector />
           <div className='cursor-pointer' onClick={toggleMenu}>
@@ -177,6 +178,7 @@ const Header = () => {
               <span className="text-base text-gray-400">© 2021 Copyright  <span className="text-white">Macode.io</span></span>
             </div>
           </div>
+          {/* Divider */}
           <div className="absolute left-0 right-0 h-[1px] bg-[#525252] bottom-[30px] my-4 hidden max-md:block"></div>
             </div>
           </div>
